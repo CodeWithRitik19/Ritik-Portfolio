@@ -43,7 +43,7 @@ export default function Hero() {
                 transition={{ duration: 0.8 }}
             >
             <span className="block bg-gradient-to-r from-[#3EADCF] via-[#57D9FF] to-[#0ea5e9] bg-clip-text text-transparent">
-              Ritik Kumar Love Sneha
+              Ritik Kumar 
             </span>
             </motion.h1>
 
