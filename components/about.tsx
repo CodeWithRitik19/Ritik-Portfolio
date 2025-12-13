@@ -158,7 +158,7 @@ export default function About() {
                   </p>
 
                   <p>
-                    As a beginner in web development, I enjoy building simple and practical web applications using HTML, CSS, JavaScript, and React. My projects—like a Quote Generator, Memory Game, Booking Form, Weather Update app, and Registration application—helped me learn by doing and sparked my interest in software development.
+                      As an intermediate web developer, I enjoy building scalable, real-world web applications using HTML, CSS, JavaScript, and React, along with modern stacks like MERN and PERN. I have experience developing AI-friendly web solutions by integrating Python-based backends and AI features into websites. My projects include dynamic web applications with authentication, APIs, dashboards, and intelligent automation, which have strengthened my understanding of full-stack development. I’m passionate about creating performance-driven, user-focused applications that combine web technologies with AI-powered solutions to solve real problems.
                   </p>
 
                   <p>
@@ -180,7 +180,7 @@ export default function About() {
                       whileTap={{ scale: 0.95 }}
                       onClick={() =>
                           window.open(
-                              "https://drive.google.com", // TODO: Update with Ritik's resume link if available
+                              "https://drive.google.com/file/d/1YdSDCcwdxbFjAdumjG2FhyDZi_NFzsSI/view?usp=drive_link", // TODO: Update with Ritik's resume link if available
                               "_blank",
                           )
                       }

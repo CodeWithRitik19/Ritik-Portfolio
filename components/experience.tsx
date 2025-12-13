@@ -5,20 +5,36 @@ import { useRef } from "react"
 import Link from "next/link"
 
 const experienceData = [
-  {
-    id: 1,
+    {
+        id: 1,
+        company: "Brother's Group Ngo",
+        location: "Agra, India",
+        position: "Chairman",
+        duration: "Feb 2025 – Present",
+        logo: "https://play-lh.googleusercontent.com/x1pAYXX5-xn4NVMJV8pYELyDJgqn_J3vYeWT81GMEETzZkJcR3XbFMBMdUQXeO2IQsw", // Place your logo as /public brothes group logo
+        website: "#",
+        description:
+            "As the Chairman of Brothers Group, a growing NGO in India, I lead initiatives for youth empowerment and social welfare.\n" +
+            "We focus on youth development, education for underprivileged children, and humanitarian projects.\n" +
+            "Our mission is to create positive social impact and strengthen humanity across India.",
+        skills: [" Event & Campaign Management", " Leadership & Team Management", " Analytical Thinking", " Communication & Public Speaking","Community Building & Social Impact Strategy"],
+
+    },
+
+    {
+    id: 2,
     company: "MatchWith (Footwear Brand)",
     location: "Agra, India",
     position: "Founder",
-    duration: "2023 – Present",
+    duration: "2023 – Aug 2025",
     logo: "/matchwith-logo.png", // Place your logo as /public/matchwith-logo.png
     website: "#",
     description:
         "Founded a footwear startup focused on innovative products, marketing, and customer engagement. Managed business operations and drove brand development.",
     skills: ["Entrepreneurship", "Brand Development", "Product Management", "Marketing"],
-  },
+    },
   {
-    id: 2,
+    id: 3,
     company: "Indian Institute of Technology, Madras",
     location: "India (Remote)",
     position: "Campus Ambassador",
@@ -30,7 +46,7 @@ const experienceData = [
     skills: ["Remote Coordination", "IT Infrastructure", "Campus Promotion", "Networking"],
   },
   {
-    id: 3,
+    id: 4,
     company: "Indian Institute of Technology, Roorkee (Cognizance 2025)",
     location: "India (Remote)",
     position: "Campus Ambassador",
@@ -42,7 +58,7 @@ const experienceData = [
     skills: ["Event Promotion", "Campus Engagement", "Student Relations"],
   },
   {
-    id: 4,
+    id: 5,
     company: "Indian Institute of Technology, Delhi (Kaizen 2025)",
     location: "Delhi, India (Remote)",
     position: "Campus Ambassador",
@@ -54,7 +70,7 @@ const experienceData = [
     skills: ["Institutional Coordination", "Event Awareness", "Leadership", "Teamwork"],
   },
   {
-    id: 5,
+    id: 6,
     company: "GL Bajaj Group of Institutions",
     location: "Mathura, Uttar Pradesh",
     position: "Student, B.Tech CSE",

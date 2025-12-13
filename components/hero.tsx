@@ -12,9 +12,9 @@ export default function Hero() {
 
   // Updated animated titles as requested
   const titles = [
-    "Frontend Developer",
-    "Data Analyst",
-    "Web Development Enthusiast"
+    "AI/ML Engineer",
+    "Data Scientist",
+    "Full Stack Web Developer"
   ]
 
   useEffect(() => {
@@ -43,7 +43,7 @@ export default function Hero() {
                 transition={{ duration: 0.8 }}
             >
             <span className="block bg-gradient-to-r from-[#3EADCF] via-[#57D9FF] to-[#0ea5e9] bg-clip-text text-transparent">
-              Ritik Kumar Love Sneha
+              Ritik Kumar
             </span>
             </motion.h1>
 
@@ -71,9 +71,10 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
             >
-              I’m a B.Tech student passionate about building practical and creative web applications.
-              Skilled in HTML, CSS, JavaScript, and data analysis, with hands-on experience in projects like Quote Generator, Memory Game, and more.
-              Eager to learn, collaborate, and grow as a developer!
+                I’m a B.Tech student passionate about building practical, creative, and intelligent web applications.
+                Skilled in HTML, CSS, JavaScript, data analysis, and AI/ML fundamentals, with hands-on experience in advanced AI-powered projects. I’ve worked on AI Resume Builder and AI Website Builder, focusing on automation, scalability, and user-centric design.
+                I’m eager to learn, collaborate, and grow by combining modern web development
+                with advanced AI solutions to build impactful digital products.
             </motion.p>
 
             <motion.div
@@ -86,7 +87,7 @@ export default function Hero() {
                   className="bg-gradient-to-r from-[#3EADCF] to-[#57D9FF] hover:from-[#57D9FF] hover:to-[#3EADCF] text-white px-6 sm:px-8 py-3 sm:py-6 rounded-md text-base sm:text-lg"
                   onClick={() =>
                       window.open(
-                          "https://drive.google.com", // <-- Update with Ritik's actual resume link!
+                          "https://drive.google.com/file/d/1YdSDCcwdxbFjAdumjG2FhyDZi_NFzsSI/view?usp=drive_link", // <-- Update with Ritik's actual resume link!
                           "_blank"
                       )
                   }
